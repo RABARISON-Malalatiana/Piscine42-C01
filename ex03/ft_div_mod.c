@@ -6,11 +6,9 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/09 08:45:20 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/10 09:57:03 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/10 14:05:57 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {

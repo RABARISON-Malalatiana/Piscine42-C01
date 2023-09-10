@@ -6,11 +6,9 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/09 21:17:26 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/10 09:58:08 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/10 14:05:13 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {

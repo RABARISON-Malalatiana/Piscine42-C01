@@ -6,11 +6,9 @@
 /*   By: marabari <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 19:30:06 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/10 09:53:08 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/10 14:00:38 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_ft(int *********nbr)
 {
@@ -23,6 +21,6 @@ void	ft_ultimate_ft(int *********nbr)
 	
 	nbr = 0;
 	ft_ultimate_ft(&nbr);
-	printf("%d", nbr);
+	__builtin_printf("%d", nbr);
 	return(0);
 }*/

@@ -6,11 +6,9 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 19:18:52 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/10 09:54:43 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/10 13:38:50 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ft(int *nbr)
 {
@@ -23,6 +21,6 @@ void	ft_ft(int *nbr)
 
 	nbr = 78;
 	ft_ft(&nbr);
-	printf("%d", nbr);
+	__builtin_printf("%d", nbr);
 	return(0);
 }*/

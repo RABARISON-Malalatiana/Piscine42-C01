@@ -6,11 +6,9 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/09 22:30:44 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/10 09:59:26 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/10 14:18:43 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_strlen(char *str)
 {
