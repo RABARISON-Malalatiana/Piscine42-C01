@@ -1,28 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marabari <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 19:30:06 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/10 09:53:08 by marabari         ###   ########.fr       */
+/*   Created: 2023/09/09 21:36:22 by marabari          #+#    #+#             */
+/*   Updated: 2023/09/09 22:29:41 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_ultimate_ft(int *********nbr)
+void	ft_putstr(char *str)
 {
-	*********nbr = 42;
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
 }
 
 /*int	main(void)
 {
-	int nbr;
-	
-	nbr = 0;
-	ft_ultimate_ft(&nbr);
-	printf("%d", nbr);
-	return(0);
+	ft_putstr("Hello World");
+	return (0);
 }*/
